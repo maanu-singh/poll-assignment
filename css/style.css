@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+/* The Above Line Is To Import Google Font Style */
+
+.main {
+	margin-left: auto;
+    margin-right: auto;
+    width: 32em;
+    margin-top: 7%;
+    font-family: montserrat;
+}
+.title {
+	width:500px;
+	height:74px;
+	text-shadow:2px 2px 2px #cfcfcf;
+	font-size:16px;
+	text-align:center
+}
+form {
+	width: 300px;
+	border: 1px dashed #403E41;
+	padding: 10px 30px 40px;
+    margin-left: 74px;
+    background-color: #efefef;
+    margin-top: 7%;
+}
+form h2 {
+    text-align: center;
+    text-shadow: 2px 2px 2px #cfcfcf;
+    color: #293A73;
+}
+.input {
+	width:100%;
+	height:30px;
+	border-radius:2px;
+	box-shadow:0 0 1px 2px #D75B19;
+	margin-top:10px;
+	padding:7px;
+	border:none;
+	margin-bottom:20px
+}
+.submit {
+	color: #fff;
+    margin-top: 27px;
+    border-radius: 3px;
+    border: none;
+    background: #D75B19;
+    padding: 5px;
+    width: 100%;
+    height: 46px;
+    box-shadow: 0 0 1px 2px #EC7805;
+    font-size: 27px;
+}
+.button {
+    background-color: #2D4D8F;
+    border-radius: 3px;
+    padding: 2% 20%;
+    text-align: center;
+    display: inline-block;
+    font-size: 27px;
+    margin: 18px 0;
+    cursor: pointer;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+.input-format{
+	margin-bottom: 17px;
+}
+
+.errorText{
+    animation:animateErrorText 1.3s infinite;
+}
+@keyframes animateErrorText{
+    0%{ color: red; }
+    50%{ color: transparent; }
+    100%{ color: red; }
+}
+.contr {
+    border: 1px dashed #403E41;
+    padding: 20px;
+    background-color: #efefef;
+    display: inline-block;
+    margin: 0 auto;
+}
+.contr h2 {
+    text-align: center;
+    text-shadow: 2px 2px 2px #cfcfcf;
+    color: #293A73;
+}
+span.options {
+    margin-right: 18px;
+}
+h3.totalVotes {
+    margin: 5px 0 10px 0;
+}
+tr td:first-child{
+    width:2%;
+    white-space:nowrap;
+}
+.resultTbl{
+	width: 100%;
+}	
+.resultTbl td {
+    padding-bottom: 10px;
+}
+tr.highlightRowClass {
+    background: orange;
+}
+td {
+	align: center;
+}
